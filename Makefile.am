@@ -60,7 +60,7 @@ dist_doc_DATA = \
 	README \
 	README.IPv6 \
 	README.polarssl \
-	COPYRIGHT.GPL \
+	COPYING.GPLv2 \
 	COPYING
 
 dist_noinst_DATA = \

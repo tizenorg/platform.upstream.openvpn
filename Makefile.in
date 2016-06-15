@@ -118,7 +118,7 @@ am__can_run_installinfo = \
     *) (install-info --version) >/dev/null 2>&1;; \
   esac
 am__dist_doc_DATA_DIST = README README.IPv6 README.polarssl \
-	COPYRIGHT.GPL COPYING INSTALL-win32.txt
+	COPYING.GPLv2 COPYING INSTALL-win32.txt
 am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;
 am__vpath_adj = case $$p in \
     $(srcdir)/*) f=`echo "$$p" | sed "s|^$$srcdirstrip/||"`;; \
@@ -383,7 +383,7 @@ EXTRA_DIST = \
 @GIT_CHECKOUT_TRUE@	config-version.h
 
 SUBDIRS = build distro include src sample doc tests
-dist_doc_DATA = README README.IPv6 README.polarssl COPYRIGHT.GPL \
+dist_doc_DATA = README README.IPv6 README.polarssl COPYING.GPLv2 \
 	COPYING $(am__append_1)
 dist_noinst_DATA = .gitignore .gitattributes config-version.h.in PORTS \
 	README.IPv6 TODO.IPv6 README.polarssl openvpn.sln msvc-env.bat \
